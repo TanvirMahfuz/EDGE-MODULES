@@ -1,6 +1,5 @@
-def sumOfSeries(n):
-  return int(n*(n+1)/2)
 
+from series import sumOfSeries
 def main():
   n = int(input())
   print(sumOfSeries(n))
