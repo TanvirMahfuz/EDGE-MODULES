@@ -1,4 +1,3 @@
-from mpmath import mp
+from pi_value import pi_value
 n = int(input("Enter the number of decimal places: "))
-mp.dps = n + 1 
-print(mp.pi)
+print(pi_value(n))
